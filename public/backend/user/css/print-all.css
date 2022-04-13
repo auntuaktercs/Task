@@ -1,0 +1,45 @@
+body {
+    font-family: bangla, sans-serif;
+    padding-bottom: 10%;
+}
+
+img {
+    padding-left: 2%;
+    width: 95%;
+}
+
+.print_title {
+    text-align: center;
+}
+
+.print_body_single {
+    padding-left: 10%;
+}
+
+.print_body_all {
+    padding-left: 1%;
+}
+
+.notice {
+    text-align: justify;
+    padding-left: -5%;
+    padding-right: 4%;
+}
+.all_info {
+    text-align: justify;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.cadet-print {
+    text-align: left;
+}
+
+.page-break {
+    page-break-after: always;
+}

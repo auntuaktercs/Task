@@ -1,0 +1,69 @@
+body {
+    font-family: bangla, sans-serif;
+    padding-bottom: 10%;
+}
+@page {
+        header: page-header;
+        footer: page-footer;
+    }
+
+h4 {
+    text-align: center;
+    padding-top: -2%;
+}
+
+.print_title{
+    text-align: center;
+    font-size: 17.5px;
+    font-weight: bold;
+    padding-top:8%;
+}
+
+.print_body_single {
+    padding-left: 25%;
+}
+
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.print_body_single_project_expenditure {
+    padding-left: 0%;
+    text-align: left;
+    padding-top: -2%;
+}
+
+.page-break {
+    page-break-after: always;
+}
+.page-2{
+    padding-top: 8%;
+}
+
+/**
+    Set the margins of the page to 0, so the footer and the header
+    can be of the full height and width !
+**/
+
+/** Define the header rules **/
+header {
+    padding-bottom: 60px;
+    position: fixed;
+}
+
+/** Define the footer rules **/
+footer {
+    position: fixed;
+    bottom: 0.5cm;
+    left: 0cm;
+    right: 0cm;
+    height: 0cm;
+}
+
+img{
+    width: 100%;
+}

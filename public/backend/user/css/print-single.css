@@ -1,0 +1,36 @@
+img {
+    padding-left: 2%;
+    width: 95%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.print_body_single {
+    padding-left: 25%;
+}
+
+.print_body_all {
+    padding-left: 1%;
+}
+
+.all_info {
+    text-align: justify;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    text-align: center;
+    text-align: center;
+}
+
+.cadet-print {
+    text-align: left;
+}
+
+.page-break {
+    page-break-after: always;
+}
